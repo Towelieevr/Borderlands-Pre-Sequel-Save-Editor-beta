@@ -1,0 +1,61 @@
+# Borderlands: The Pre-Sequel - item list for the TPS Save Editor (tps_editor), uploaded to /data/GoldHEN/tps_codes.txt
+#
+# Two kinds of lines:
+#   Name = POOL(ItemPoolDefinition)   rolls a fresh item from one of the game's loot pools (always a valid TPS item)
+#   Name = BL2(base64...)             a Gibbed TPS backpack code (BLOZ(...) / BLTPS(...) also accepted)
+# Pool items come out at the menu's spawn level ("Original" = your level). Press [] in the menu to reload this file.
+# Pool names were taken from the running game (tps_objects.txt); "# ---- Name" lines start a category.
+
+# ---- Legendary Weapons (8)
+Random Legendary Weapon = POOL(Pool_Weapons_All_06_Legendary)
+Legendary Pistol = POOL(Pool_Weapons_Pistols_06_Legendary)
+Legendary Assault Rifle = POOL(Pool_Weapons_AssaultRifles_06_Legendary)
+Legendary SMG = POOL(Pool_Weapons_SMG_06_Legendary)
+Legendary Shotgun = POOL(Pool_Weapons_Shotguns_06_Legendary)
+Legendary Sniper = POOL(Pool_Weapons_SniperRifles_06_Legendary)
+Legendary Launcher = POOL(Pool_Weapons_Launchers_06_Legendary)
+Legendary Laser = POOL(Pool_Weapons_Lasers_06_Legendary)
+
+# ---- Legendary Gear (6)
+Legendary Shield = POOL(Pool_Shields_All_06_Legendary)
+Legendary Booster Shield = POOL(LegendaryBoosterShieldItemPool)
+Legendary Grenade Mod = POOL(Pool_GrenadeMods_06_Legendary)
+Legendary Oz Kit = POOL(Pool_MoonItem_06_Legendary)
+Legendary Class Mod (any) = POOL(Pool_ClassMod_06_Legendary)
+Legendary Guns And Gear = POOL(Pool_GunsAndGear_06_Legendary)
+
+# ---- Legendary Class Mods (6)
+Athena (Gladiator) = POOL(Pool_ClassMod_Gladiator_05_Legendary)
+Wilhelm (Enforcer) = POOL(Pool_ClassMod_Enforcer_05_Legendary)
+Nisha (Lawbringer) = POOL(Pool_ClassMod_Lawbringer_05_Legendary)
+Claptrap (Fragtrap) = POOL(Pool_ClassMod_Prototype_05_Legendary)
+Aurelia (Baroness) = POOL(Pool_ClassMod_Baroness_05_Legendary)
+Jack (Doppelganger) = POOL(Pool_ClassMod_Doppelganger_05_Legendary)
+
+# ---- Uniques (5)
+Unique Shield = POOL(Pool_Shields_Unique)
+Unique Grenade Mod = POOL(Pool_GrenadeMods_Unique)
+Unique Oz Kit = POOL(Pool_MoonItem_Unique)
+Moxxi's Slammer = POOL(BoosterShieldItemPool_MoxxisSlammer)
+Gwen's Other Head = POOL(Pool_Weapons_Gwen_Unique)
+
+# ---- Epic (Purple) Weapons (8)
+Random Purple Weapon = POOL(Pool_Weapons_All_05_VeryRare)
+Purple Pistol = POOL(Pool_Weapons_Pistols_05_VeryRare)
+Purple Assault Rifle = POOL(Pool_Weapons_AssaultRifles_05_VeryRare)
+Purple SMG = POOL(Pool_Weapons_SMG_05_VeryRare)
+Purple Shotgun = POOL(Pool_Weapons_Shotguns_05_VeryRare)
+Purple Sniper = POOL(Pool_Weapons_SniperRifles_05_VeryRare)
+Purple Launcher = POOL(Pool_Weapons_Launchers_05_VeryRare)
+Purple Laser = POOL(Pool_Weapons_Lasers_05_VeryRare)
+
+# ---- Epic (Purple) Gear (4)
+Purple Shield = POOL(Pool_Shields_All_05_VeryRare)
+Purple Grenade Mod = POOL(Pool_GrenadeMods_05_VeryRare)
+Purple Oz Kit = POOL(Pool_MoonItem_05_VeryRare)
+Purple Class Mod = POOL(Pool_ClassMod_05_VeryRare)
+
+# ---- Gibbed Codes (0)
+# Paste your own Gibbed TPS backpack codes here, one per line, e.g.
+#   My Gun = BL2(h1PMHxDY....)
+# Check them first with:  python check_codes.py tps_codes.txt
