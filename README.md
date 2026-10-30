@@ -12,8 +12,6 @@ In-game save editor plugin for Borderlands: The Pre-Sequel on jailbroken PS4s wi
 
 Grab the zip from [Releases](https://github.com/Towelieevr/Borderlands-Pre-Sequel-Save-Editor-beta/releases).
 
-If you use the **Toweliee's Save Editors** installer app, choose **Check for updates online** and it will download new versions from this repo by itself.
-
 ## Install
 
 1. Copy the `GoldHEN` folder from the zip to `/data/GoldHEN/` on your PS4 over FTP (`tps_editor.prx` goes in `plugins/`; the icon and `tps_codes.txt` go in `/data/GoldHEN/`).
